@@ -1,0 +1,239 @@
+/*
+Theme Name: Mechanika Theme
+Theme URI: htt://shadow-code.com
+Author: Shadowww
+Author: URI: htt://kamilnowocien.pl
+ */
+
+
+
+.fixed-top {
+  position: relative;
+}
+
+.info {
+  padding: 120px 0px 0px 0px;
+}
+
+.garage-name {
+  text-transform: uppercase;
+  font-size: 1.5em;
+  margin-bottom: .25em;
+}
+
+.stars {
+  height: 30px;
+  width: auto;
+  border-radius: 15px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  float: left;
+}
+
+.stars input {
+  position: absolute;
+  left: -99999px;
+}
+/*
+label {
+  width: 30px;
+  height: 30px;
+  color: transparent;
+}
+
+label::before {
+  content: '★';
+  color: #c0c0c0;
+  font-size: 30px;
+  line-height: 30px;
+  margin-right: -100%;
+}
+
+label:hover::before,
+label:hover ~ label::before,
+.stars input:checked ~ label::before {
+  color: #ffa500 !important;
+}
+*/
+.pinezka {
+  color: #387b8f;
+}
+
+.garage-address {
+  font-size: 1.25em;
+}
+
+.contact-buttons {
+  padding: 50px 0;
+  position: relative;
+}
+
+.navbar {
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+}
+
+.btn {
+  text-transform: uppercase;
+  border-radius: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #387b8f;
+  background-color: transparent;
+  background-image: none;
+  border-color: #387b8f;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid ;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  -webkit-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.show-phone-number:not([disabled]):not(.disabled):active, .show>.show-phone-number.dropdown-toggle {
+  color: #212529;
+  background-color: #387b8f;
+  border-color: #387b8f;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(56,123,143,.5);
+  box-shadow: 0 0 0 0.2rem rgba(56,123,143,.5);
+}
+
+.show-phone-number:hover {
+  color: #fff;
+  background-color: #387b8f;
+  border-color: #387b8f;
+  cursor: pointer;
+}
+
+.show-number {
+  font-weight: 700;
+}
+
+.bg-primary {
+  background-image: url("images/front.jpg") !important;
+  background-size: 100%;
+}
+.appointment-button{
+  cursor: pointer;
+  border: 1px solid #387b8f;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1em;
+  background-color: #387b8f;
+}
+
+.phone-numbers {
+  position: absolute;
+  float: left !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  z-index: 100;
+  background-color: #f2f2f2;
+  padding: 7px;
+  max-width: 350px;
+}
+
+.show {
+  display: flex;
+}
+
+.phone-container {
+  padding: 5px 14px;
+  width: 95%;
+  border-bottom: 1px solid grey;
+}
+
+.down-number {
+  border-bottom: none;
+}
+
+.phone-type {
+  color: black;
+  width:50%;
+}
+
+.phone-number {
+  padding: 0;
+  display:inline-block;
+}
+
+
+.nav-link {
+  color: #007bff !important;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+.nav-link:hover {
+  text-decoration: underline black;
+}
+
+.nav-link {
+  margin-right: 20px;
+}
+
+.navbar-toggler {
+  padding: .25rem .75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: #387b8f;
+  border: 1px solid #007bff;
+  border-radius: .25rem;
+}
+
+#informacje {
+  background-image: url("images/background.jpg");
+
+}
+
+
+
+@media(max-width:1100px) {
+  .bg-primary {
+    background-image: url("images/front-small.jpg") !important;
+    background-size: 100%;
+  }
+
+  header{
+    padding: -1px !important;
+  }
+}
+
+@media(max-width:400px){
+  .info {
+    padding: 15px 0px 0px 0px;
+  }
+
+  .contact-buttons {
+    padding: 18px 0;
+  }
+
+
+
+}
+
+@media(min-width: 1100px){
+  header {
+    padding: 120px 100px;
+  }
+}
